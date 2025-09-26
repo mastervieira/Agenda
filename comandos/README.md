@@ -1,3 +1,13 @@
+# Documentação 
+https://docs.djangoproject.com/pt-br/5.2/topics/db/models/
+
+https://docs.djangoproject.com/pt-br/5.2/ref/models/fields/#field-choices
+
+
+# Shell Django
+
+python manage.py shell
+
 # Iniciar o projeto Django
 
 python -m venv venv
