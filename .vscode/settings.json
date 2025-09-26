@@ -48,7 +48,7 @@
     "reportUnknownParameterType": "none"
   },
   // "python.defaultInterpreterPath": "./venv/bin/python",
-  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.typeCheckingMode": "off",
   "cSpell.enabled": true,
-  "python.analysis.autoImportCompletions": true
+  "python.analysis.autoImportCompletions": false
 }
