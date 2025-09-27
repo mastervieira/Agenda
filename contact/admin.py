@@ -11,6 +11,7 @@ class ContactAdmin(admin.ModelAdmin):
         'last_name',
         'email',
         'created_date',
+        'show',
     )
     ordering = '-id',
     list_filter  = 'created_date',
@@ -21,6 +22,7 @@ class ContactAdmin(admin.ModelAdmin):
     ) 
     list_per_page = 50
     list_max_show_all = 100
+    list_editable = 'show',
 
 @admin.register(models.Category)
 class CategoryAdmin(admin.ModelAdmin):
